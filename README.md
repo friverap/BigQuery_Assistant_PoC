@@ -1,4 +1,4 @@
-# BigQuery_Assistant_PoC# BigQuery SQL Query Assistant
+# BigQuery SQL Query Assistant
 
 A powerful AI-powered tool that helps you interact with BigQuery using natural language. This tool uses OpenAI's GPT-4 model to understand your requests and generate accurate SQL queries for BigQuery.
 
