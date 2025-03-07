@@ -14,7 +14,7 @@ A powerful AI-powered tool that helps you interact with BigQuery using natural l
 
 ## Prerequisites
 
-- Python 3.10 or higher
+- Python 3.11 or higher
 - Google Cloud Service Account with BigQuery access
 - OpenAI API key
 - Required Python packages (see dependencies)
@@ -43,7 +43,10 @@ BQ_TABLE_NAME=comercial
 2. Place your Google Cloud service account credentials JSON file in a secure location
 
 ## Usage
-
+Install uv:
+```bash
+pip install uv
+```
 Run the script with the following command:
 ```bash
 uv run BQ_openai.py -c path/to/credentials.json -p "your query request" [-n max_compute_loops]
