@@ -19,17 +19,6 @@ A powerful AI-powered tool that helps you interact with BigQuery using natural l
 - OpenAI API key
 - Required Python packages (see dependencies)
 
-## Dependencies
-
-```bash
-openai>=1.63.0
-rich>=13.7.0
-pydantic>=2.0.0
-google-cloud-bigquery>=3.17.1
-google-auth>=2.28.1
-python-dotenv>=1.0.0
-```
-
 ## Configuration
 
 1. Create a `.env` file in the project root with the following variables:
@@ -51,6 +40,7 @@ Run the script with the following command:
 ```bash
 uv run BQ_openai.py -c path/to/credentials.json -p "your query request" [-n max_compute_loops]
 ```
+All dependencies will be installed automatically.
 
 Arguments:
 - `-c, --credentials`: Path to Google Cloud credentials JSON file
