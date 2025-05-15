@@ -24,9 +24,9 @@ A powerful AI-powered tool that helps you interact with BigQuery using natural l
 1. Create a `.env` file in the project root with the following variables:
 ```bash
 OPENAI_API_KEY=your_openai_api_key
-BQ_PROJECT_ID=datahub-deacero
-BQ_DATASET_ID=mart_comercial
-BQ_TABLE_NAME=comercial
+BQ_PROJECT_ID=projenct-id
+BQ_DATASET_ID=dataset_id
+BQ_TABLE_NAME=table_name
 ```
 
 2. Place your Google Cloud service account credentials JSON file in a secure location
